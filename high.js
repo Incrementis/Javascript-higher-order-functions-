@@ -23,11 +23,11 @@ function ForEACH()
 	List.forEach
 	(
 
-		function(element, idx, List)
+		function(element, idx, list)
 		{
 			if(idx === 0)
 			{
-				results.innerHTML = "List:<strong> " + List + "</strong><br><br>";
+				results.innerHTML = "List:<strong> " + list + "</strong><br><br>";
 			}
 			results.innerHTML += "Element:<strong> " + element + "</strong> ";
 			results.innerHTML += "&nbsp;&nbsp;&nbsp;"
@@ -157,7 +157,7 @@ function REDUCE()
 	);
 
 
-	//Shows results in browser
+	//Shows result in browser
 	results.innerHTML = "Product outcome:<strong> " + productOutcome + "</strong>";
 	
 }//REDUCE
@@ -189,7 +189,7 @@ function ReduceRIGHT()
 	)
 	
 	
-	//Shows results in browser
+	//Shows result in browser
 	results.innerHTML = "Reversed:<strong> " + reversed + "</strong>";
 	
 }//ReduceRIGHT
@@ -225,7 +225,7 @@ function SORT()
 	var sorted = List.sort(Compare);
 
 	
-	//Shows results in browser
+	//Shows result in browser
 	results.innerHTML = "Sorted by number:<strong> " + sorted + "</strong>";
 	
 }//SORT
